@@ -125,58 +125,6 @@
 </head>
 <body class="bg-surface text-on-surface antialiased min-h-screen flex flex-col justify-between selection:bg-primary-fixed selection:text-primary">
 
-  <!-- BARRA DE NAVEGAÇÃO DOS MÓDULOS SGE CCP (ALINHADOS LADO A LADO) -->
-  <nav class="no-print bg-emerald-950/90 border-b border-emerald-800/80 px-4 py-2 shadow-inner w-full flex-shrink-0 z-40">
-    <div class="max-w-[1700px] mx-auto flex items-center justify-between gap-3">
-      <div class="flex items-center gap-2 flex-shrink-0">
-        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-        <span class="text-[11px] font-bold uppercase tracking-wider text-emerald-300">Módulos SGE:</span>
-      </div>
-      <div class="flex items-center gap-2 overflow-x-auto flex-nowrap flex-1 py-0.5 custom-scrollbar">
-        <a href="https://klausslosso.github.io/PAINEL/" target="_self" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold text-emerald-100 hover:text-white bg-emerald-900/60 hover:bg-emerald-800 border border-emerald-800/80 hover:border-emerald-500/70 transition-all shadow-sm whitespace-nowrap flex-shrink-0" title="Painel Principal">
-          <span class="text-sm">🏠</span>
-          <span>Painel Principal</span>
-        </a>
-        <a href="https://klausslosso.github.io/SECRETARIA-CCP/" target="_self" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold text-emerald-100 hover:text-white bg-emerald-900/60 hover:bg-emerald-800 border border-emerald-800/80 hover:border-emerald-500/70 transition-all shadow-sm whitespace-nowrap flex-shrink-0" title="Secretaria CCP">
-          <span class="text-sm">🏛️</span>
-          <span>Secretaria CCP</span>
-        </a>
-        <a href="https://klausslosso.github.io/Alunos/" target="_self" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold text-emerald-100 hover:text-white bg-emerald-900/60 hover:bg-emerald-800 border border-emerald-800/80 hover:border-emerald-500/70 transition-all shadow-sm whitespace-nowrap flex-shrink-0" title="Gestão de Alunos">
-          <span class="text-sm">👥</span>
-          <span>Gestão de Alunos</span>
-        </a>
-        <a href="https://klausslosso.github.io/CURSOS/" target="_self" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold text-emerald-100 hover:text-white bg-emerald-900/60 hover:bg-emerald-800 border border-emerald-800/80 hover:border-emerald-500/70 transition-all shadow-sm whitespace-nowrap flex-shrink-0" title="Cursos e Turmas">
-          <span class="text-sm">📚</span>
-          <span>Cursos e Turmas</span>
-        </a>
-        <a href="https://klausslosso.github.io/GERADOR-CERTIFICADOS/" target="_self" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold text-emerald-100 hover:text-white bg-emerald-900/60 hover:bg-emerald-800 border border-emerald-800/80 hover:border-emerald-500/70 transition-all shadow-sm whitespace-nowrap flex-shrink-0" title="Emissor de Certificados">
-          <span class="text-sm">📜</span>
-          <span>Emissão de Certificados</span>
-        </a>
-        <a href="https://klausslosso.github.io/VERIFICA-O-CERTIFICADOS-CCP-IGUABA-GRANDE-RJ/" target="_self" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold text-white bg-emerald-700 border border-emerald-400/80 transition-all shadow-sm whitespace-nowrap flex-shrink-0" title="Verificação de Autenticidade (Módulo Atual)">
-          <span class="text-sm">🔍</span>
-          <span>Verificação de Certificados</span>
-        </a>
-        <a href="https://klausslosso.github.io/INSTRUTOR/" target="_self" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold text-emerald-100 hover:text-white bg-emerald-900/60 hover:bg-emerald-800 border border-emerald-800/80 hover:border-emerald-500/70 transition-all shadow-sm whitespace-nowrap flex-shrink-0" title="Área do Instrutor">
-          <span class="text-sm">👔</span>
-          <span>Área do Instrutor</span>
-        </a>
-        <a href="https://klausslosso.github.io/Estoque-CCP/" target="_self" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold text-emerald-100 hover:text-white bg-emerald-900/60 hover:bg-emerald-800 border border-emerald-800/80 hover:border-emerald-500/70 transition-all shadow-sm whitespace-nowrap flex-shrink-0" title="Estoque e Insumos">
-          <span class="text-sm">📦</span>
-          <span>Estoque e Insumos</span>
-        </a>
-        <a href="https://klausslosso.github.io/COMUNICA-O/" target="_self" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold text-emerald-100 hover:text-white bg-emerald-900/60 hover:bg-emerald-800 border border-emerald-800/80 hover:border-emerald-500/70 transition-all shadow-sm whitespace-nowrap flex-shrink-0" title="Comunicação com o Aluno">
-          <span class="text-sm">💬</span>
-          <span>Comunicação com o Aluno</span>
-        </a>
-        <a href="https://klausslosso.github.io/GODMOD/" target="_self" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold text-rose-200 hover:text-white bg-rose-950/40 hover:bg-rose-900/80 border border-rose-800/60 hover:border-rose-500 transition-all shadow-sm whitespace-nowrap flex-shrink-0" title="Administração Geral - GodMode">
-          <span class="text-sm">⚙️</span>
-          <span>Administração Geral - GodMode</span>
-        </a>
-      </div>
-    </div>
-  </nav>
-
   <main class="w-full bg-surface pt-6 sm:pt-8 flex-1">
     <div class="flex flex-col w-full">
 
